@@ -1,0 +1,1 @@
+def marriage(boy,girl):
