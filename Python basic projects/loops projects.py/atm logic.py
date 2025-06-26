@@ -5,7 +5,8 @@ for i in range(3):
     if amt< balance:
         balance -= amt
         print(f"Transaction successful! Your new balance is: {balance}")
+        break
     else:
         print("Insufficient balance. Please try again.")
-        continue
+        print("Thank you for using our ATM service!")
 
